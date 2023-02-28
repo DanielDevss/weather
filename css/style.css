@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Righteous&display=swap');
+html{
+    height: 100vh;
+}
+body{
+    height: 100vh;
+    background-image: url('../img/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    max-width: 250px;
+    position: relative;
+    padding: 2rem;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(221, 244, 238, 0.5);
+    backdrop-filter: blur(5px);
+    border: solid 2px #ffffff69;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+h4{
+    color: #1f4f5e;
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    font-size: 4rem !important;
+}
+p{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    color: #323232;
+}
+img{
+    position: absolute;
+    width: 140px;
+    top: -70px;
+}
+div{
+    height: 15px;
+    width: 60%;
+    position: absolute;
+    top: 2rem;
+    z-index: -1;
+    border-radius: 50%;
+    background: #08325361;
+    filter: blur(15px);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-filter: blur(15px);
+}
