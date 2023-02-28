@@ -9,6 +9,11 @@ let ciudad = document.querySelector('#ciudad');
 
 
 
+window.addEventListener("load", function () {
+    const preload = document.querySelector("#preload");
+    preload.classList.add("hide-preload");
+});
+
 
 if("geolocation" in navigator){
     navigator.geolocation.getCurrentPosition( (position)=> {
